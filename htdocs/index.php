@@ -1,6 +1,7 @@
 <?php
 
-include "../conf.php";
+include "conf.php";
+//include "../conf.php";
 
 $f = "version.txt";
 $site_version = file_get_contents($f);

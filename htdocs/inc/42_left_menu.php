@@ -1,8 +1,13 @@
 			<!-- -->
 			<div class="container pb-6">
 
-				<div class="row g-4">
+				<div class="row g-4 auth_on" style="text-align:center">
+				<center>
+				<button class="btn btn-sm btn-primary wallet_connect w-25">Connect</button>
+				</center>
+				</div>
 
+				<div class="row g-4 auth_off">
 					<!-- sidebar -->
 					<div class="col-12 col-lg-3">
 
@@ -35,9 +40,9 @@
 			                    </svg>
 			                  </div>
 			                  <div class="w-100 px-3">
-			                    <span>Hello,</span>
+<!--			                    <span>Hello,</span>-->
 			                    <span class="d-block fw-bold">
-			                      John Travolta
+			                      <span class="wallet-id">-</span>
 			                    </span>
 			                  </div>
 			                </div>
@@ -145,9 +150,9 @@
 										<li class="nav-item border-top my-3"></li>
 
 										<li class="nav-item">
-											<a class="nav-link px-0" href="#">
+											<a class="nav-link px-0" href="#"  onclick="return logout();">
 												<i class="fi fi-power float-start"></i>
-												Log Out
+												Disconnect
 											</a>
 										</li>
 

@@ -113,7 +113,18 @@ var btn_actions = {
 $("button").click(function(e) {
   var btn = $(e.target);
   var button_class = e.target.className;
-  btn_actions[button_class.replace("btn-", "").replace("active", "").replace(" ", "")](btn, btn.data("value"));
+    var pos;
+
+//    console.log('Click '+e.target.id);
+//    console.log(button_class);
+    pos = button_class.indexOf("btns",0);
+//console.log('pos '+pos);
+    if(pos >= 0)
+    {
+
+//  btn_actions[button_class.replace("btn-", "").replace("active", "").replace(" ", "")](btn, btn.data("value"));
+    btn_actions[button_class.replace("btns","").replace("btn-", "").replace("active", "").replace(" ", "")](btn, btn.data("value"));
+    }
 });
 
 $("select").change(function(e) {
