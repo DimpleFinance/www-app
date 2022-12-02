@@ -30,7 +30,8 @@
 
 
 
-						<!-- Menu -->
+<?php
+/*						<!-- Menu -->
 						<!--
 
 							Dropdown Classes (should be added to primary .dropdown-menu only, dropdown childs are also affected)
@@ -585,6 +586,8 @@
 
 
 						</div>
+*/
+?>
 
 
 

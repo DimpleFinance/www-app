@@ -56,6 +56,10 @@ $k = "txs";
 $menu[$k][name] = "Transactions";
 $menu[$k][svg]	= 6;
 
+$k = "events";
+$menu[$k][name] = "Events";
+$menu[$k][svg]	= 4;
+
 $k = "staking";
 $menu[$k][name] = "Staking";
 $menu[$k][svg]	= 1;

@@ -90,6 +90,63 @@ print "</table>";
                 <div class="row">
 
                   <div class="col">
+                    <h5 class="fw-bold">WMATIC</h5>
+                    <p class="mb-0 text-dark small">DIMPLE test token</p>
+                  </div>
+
+                  <div class="col-12 border-top border-light my-2 d-lg-none"><!-- mobile divider --></div>
+
+                  <div class="col-lg-4 text-lg-end text-dark">
+                <div class="flex-none">
+                  <button  class="btn btn-primary bg-primary text-white btn_action">
+                    CLAIM 100 WMATIC
+                  </button>
+                </div>
+
+<!--                        <span class="d-block fw-medium text-info">-</span>
+                    <a href="/#/manage/faucet" class="d-block2 small">faucet</a> or
+                    <a href="/#/manage/staking" class="d-block2 small">stake</a>
+-->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-3 link-normal">
+              <div class="card-body p-lg-4">
+                <div class="row">
+
+                  <div class="col">
+                    <h5 class="fw-bold">WETH</h5>
+                    <p class="mb-0 text-dark small">DIMPLE test token</p>
+                  </div>
+
+                  <div class="col-12 border-top border-light my-2 d-lg-none"><!-- mobile divider --></div>
+
+                  <div class="col-lg-4 text-lg-end text-dark">
+                <div class="flex-none">
+                  <button  class="btn btn-primary bg-primary text-white btn_action">
+                    CLAIM 0.1 WETH
+                  </button>
+                </div>
+
+<!--                        <span class="d-block fw-medium text-info">-</span>
+                    <a href="/#/manage/faucet" class="d-block2 small">faucet</a> or
+                    <a href="/#/manage/staking" class="d-block2 small">stake</a>
+-->
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card mb-3 link-normal">
+              <div class="card-body p-lg-4">
+                <div class="row">
+
+                  <div class="col">
                     <h5 class="fw-bold">stDIMPLE</h5>
                     <p class="mb-0 text-dark small">DIMPLE stake amount</p>
                   </div>
