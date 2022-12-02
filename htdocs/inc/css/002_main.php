@@ -30,3 +30,7 @@ transition:0.4s;
 //    border:solid 10px red;
     z-index:12000 !important;
 }
+.btn_action
+{
+    width:200px;
+}

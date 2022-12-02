@@ -3,7 +3,32 @@
 
 
           <div class="row g-2">
+<?php
+$d = __DIR__;
+$d .= "/pages/";
+$h = opendir($d);
+unset($f_mas);
+while($f = readdir($h))
+{
+    if($f == "." || $f == "..")continue;
+    $tf = $d.$f;
+    $t = pathinfo($tf);
+    if($t[extension] != "php")continue;
+    $f_mas[$t[filename]] = $tf;
+}
+ksort($f_mas);
+foreach($f_mas as $fname=>$f)
+{
+    $t = $fname;
+    $t = explode("_",$t);
+    $name = $t[1];
+    print "<div class=\"pages page_$name\">";
+    include $f;
+    print "</div>";
+}
 
+/*
+?>
             <!-- name, etc -->
             <div class="card mb-3">
               <div class="card-body d-flex justify-content-between">
@@ -145,7 +170,7 @@
                 </span>
                 <span class="w-100">
                   <strong class="d-block fs-5 fw-medium">Account password</strong> 
-                  <small>Is a good idea to have a strong password you don't use it elsewhere.</small>
+                  <small>Is a good idea to have a strong password you dont use it elsewhere.</small>
                 </span>
                 <span class="flex-none">
                   <a href="#" data-bs-toggle="modal" data-bs-target="#modal-passwd-edit" class="bg-primary text-white rounded px-2 py-1 small">
@@ -237,6 +262,8 @@
               </div>
 
             </div>
+*/
+?>
 
 
 </div>

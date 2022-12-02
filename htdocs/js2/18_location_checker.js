@@ -40,7 +40,7 @@ console.log("URL POS of #: "+p);
     glob["item"] = r["item"]?r["item"]:'claim';
     glob["item2"] = r["item2"];
     //menu_active(r["item"]);
-    blk_visible(r["item"]);
+    blk_visible(r["item"],r["item2"]);
 
 //console.log("R[wal]: "+r["wal"]);
     if(r["wal"] === undefined)

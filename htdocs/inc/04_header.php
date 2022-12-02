@@ -613,6 +613,7 @@
 
 <!--                  <div class="dropdown-header px-4 mb-1 text-wrap fw-medium">John Doe</div>-->
 <!--                  <div class="dropdown-divider mb-3"></div>-->
+<!--
                   <a class="dropdown-item active" href="account-index.html">
                     <svg class="text-gray-600 float-start" width="18px" height="18px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                       <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"></path>
@@ -675,6 +676,7 @@
                     <span>Account settings</span>
                   </a>
                   <div class="dropdown-divider mt-3"></div>
+-->
                   <a href="#" title="Log Out" class="dropdown-item mt-1" onclick="return logout();">
                     <i class="fi fi-power float-start"></i>
                     Disconnect

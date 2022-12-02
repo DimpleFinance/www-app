@@ -1,7 +1,9 @@
-function blk_visible(item)
+function blk_visible(item,item2)
 {
     var x = document.getElementsByClassName("item_type");
     var l = x.length;
+
+/*
     var t = "item_type_"+item;
     //console.log("link len: "+l);
     //log("TYPE "+item);
@@ -20,7 +22,7 @@ function blk_visible(item)
 	}
     }
     //item_switch(item);
-
+*/
     switch(item)
     {
 	case "manage":
@@ -36,6 +38,20 @@ function blk_visible(item)
     x.innerHTML = t;
     t = t + ' .:. '+glob['title'];
     document.title = t;
+
+    x = document.getElementsByClassName('pages');
+    l = x.length;
+    for(i=0;i<l;i++)
+    {
+	x[i].classList.add('d-none');
+    }
+    x = document.getElementsByClassName('page_'+item2);
+    l = x.length;
+    for(i=0;i<l;i++)
+    {
+	x[i].classList.remove('d-none');
+    }
+
 //    var t = 'item_type_'+item;
 //    console.log(t);
 

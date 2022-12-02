@@ -78,7 +78,7 @@ function check_logining(item="",item2="all")
 	//if(glob["last_item_switch"])
 	//url = "/"+glob["last_item_switch"];
 	
-	login_redir("/claim/all");
+//	login_redir("/claim/all");
 	login_redir(url);
 //	x.classList.add("d-none");
 //	y.classList.remove("d-none");
