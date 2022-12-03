@@ -21,7 +21,9 @@
 
 <!-- navbar : brand (logo) -->
 							<a class="navbar-brand" href="/">
-<span class="header-logo">Dimple</span>
+<span class="header-logo">
+<img width="110" height="38" src="assets/images/logo/logo_dark2.svg" alt="...">
+</span>
 <!--								<img src="assets/images/logo/logo_dark.svg" width="110" height="38" alt="...">-->
 							</a>
 

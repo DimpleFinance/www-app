@@ -9,5 +9,6 @@ switch($_SERVER['HTTP_HOST'])
     break;
     default:
         $api = "https://dimple-api.infocoin.pro/";
+        $api = "https://api.dimple.finance/";
         $api2 = "";
 }

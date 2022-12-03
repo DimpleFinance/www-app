@@ -1,4 +1,4 @@
-    <section class="pt-5 p-0 mt-1 overflow-hidden bg-light">
+    <section class="pt-5 p-0 mt-1 overflow-hidden">
       <div class="container">
 
        <!--#include file="/partial/demo-menu.html" -->

@@ -34,9 +34,31 @@ function blk_visible(item,item2)
 	t = "Service management";
 	break;
     }
+
+
     x = document.getElementById("item_title");
     x.innerHTML = t;
     t = t + ' .:. '+glob['title'];
+
+    switch(item2)
+    {
+	case "txs":
+	    t = "Transactions .:. "+glob['title'];
+	break;
+	case "balance":
+	    t = "Balance .:. "+glob['title'];
+	break;
+	case "staking":
+	    t = "Staking .:. "+glob['title'];
+	break;
+	case "faucet":
+	    t = "Faucet .:. "+glob['title'];
+	break;
+	case "all":
+	break;
+
+    }
+
     document.title = t;
 
     x = document.getElementsByClassName('pages');
@@ -51,6 +73,9 @@ function blk_visible(item,item2)
     {
 	x[i].classList.remove('d-none');
     }
+
+    glob["cron_action"] = item+"_"+item2;
+    glob["cron_action_counter"] = 0;
 
 //    var t = 'item_type_'+item;
 //    console.log(t);
