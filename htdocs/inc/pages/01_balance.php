@@ -46,7 +46,7 @@ print "</table>";
                   <div class="col-12 border-top border-light my-2 d-lg-none"><!-- mobile divider --></div>
 
                   <div class="col-lg-4 text-lg-end text-dark">
-                        <span class="d-block fw-medium text-info">-</span>
+                        <span class="d-block fw-medium text-info balance_coin">-</span>
                     <a href=https://faucet.polygon.technology/ class="d-block small" target=_blank>faucet</a>
                   </div>
 
@@ -66,7 +66,7 @@ print "</table>";
                   <div class="col-12 border-top border-light my-2 d-lg-none"><!-- mobile divider --></div>
 
                   <div class="col-lg-4 text-lg-end text-dark">
-                        <span class="d-block fw-medium text-info">-</span>
+                        <span class="d-block fw-medium text-info balance_usdc">-</span>
                     <a href="/#/manage/faucet" class="d-block2 small">faucet</a> or
                     <a href="/#/manage/staking" class="d-block2 small">stake</a>
                   </div>
