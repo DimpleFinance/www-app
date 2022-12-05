@@ -1,6 +1,10 @@
     <section class="pt-5 p-0 mt-1 overflow-hidden">
       <div class="container">
 
+<center>
+<h1 style="font-size:20px;">Testnet Price Chart</h1>
+<h2 style="font-size:15px;">We simulate price changes from mainnet for pools</h2>
+</center>
        <!--#include file="/partial/demo-menu.html" -->
 <!--
         <p>Use the controls to manipulate the chart.
@@ -10,8 +14,8 @@
 
         <div class="toolset">
           <select id="symbol">
-<option value="weth_usdc">WETH_USDC</option>
-<option value="wmatic_usdc">WMATIC_USDC</option>
+<option value="weth_usdc">WETH / USDC</option>
+<option value="wmatic_usdc">WMATIC / USDC</option>
 
           </select>
           <span class="buttonset">

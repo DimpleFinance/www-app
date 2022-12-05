@@ -17,3 +17,7 @@ glob["lang"] 	= "en";
 //glob["matic_usdc"] = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174";
 
 glob["api_info"] = new Array();
+glob["contracts"] = new Array();
+glob["contracts"]["stake"] = "0x9D6C1B00e16D8EfbF31Bdb4566eF6aD8a92Cc33A";
+glob["contracts"]["usdc"] = "0xBfd995F0F67C1A3772146862132C2B716E745452";
+glob["action"] = new Array();

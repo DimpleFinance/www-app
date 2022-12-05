@@ -37,7 +37,7 @@ function blk_visible(item,item2)
 
 
     x = document.getElementById("item_title");
-    x.innerHTML = t;
+//    x.innerHTML = t;
     t = t + ' .:. '+glob['title'];
 
     switch(item2)
