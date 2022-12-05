@@ -1,0 +1,1 @@
+wget https://dimple-app.infocoin.pro/data/data.js -O /www/git/www-app/htdocs/data/data.js
