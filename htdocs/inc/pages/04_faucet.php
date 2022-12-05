@@ -70,7 +70,7 @@ print "</table>";
 
                   <div class="col-lg-4 text-lg-end text-dark">
                 <div class="flex-none">
-                  <button  class="btn btn-primary bg-primary text-white btn_action">
+                  <button  class="btn btn-primary bg-primary text-white btn_action" onclick=faucetUSDC();>
                     CLAIM 100 USDC
                   </button>
                 </div>
@@ -98,7 +98,7 @@ print "</table>";
 
                   <div class="col-lg-4 text-lg-end text-dark">
                 <div class="flex-none">
-                  <button  class="btn btn-primary bg-primary text-white btn_action">
+                  <button  class="btn btn-primary bg-primary text-white btn_action" onclick=faucetWMATIC();>
                     CLAIM 100 WMATIC
                   </button>
                 </div>
@@ -126,7 +126,7 @@ print "</table>";
 
                   <div class="col-lg-4 text-lg-end text-dark">
                 <div class="flex-none">
-                  <button  class="btn btn-primary bg-primary text-white btn_action">
+                  <button  class="btn btn-primary bg-primary text-white btn_action" onclick=faucetWETH();>
                     CLAIM 0.1 WETH
                   </button>
                 </div>
@@ -162,7 +162,11 @@ print "</table>";
 -->
 
 <!--                  <button data-bs-toggle="modal" data-bs-target="#modal-account-edit" class="btn btn-primary bg-primary text-white btn_action">-->
-                  <button  class="btn btn-primary bg-primary text-white btn_action">
+<?php
+//print "<span class=\"tooltip-test\" title=\"Click this for add token to Metamask\" data-toggle=\"tooltip\" data-placement=\"bottom\" onclick=\"metamask_add_token(glob['api_wallet_info']['stake_ddao_lock_contract'],'stDDAO',18,'https://raw.githubusercontent.com/defihuntersdao-club/ww
+//w-ddao-app/main/htdocs/images/stddao4.svg');\"><img src=\"/images/ico/metamask.svg\" style=\"width:28px;\"></span>";
+?>
+                  <button  class="btn btn-primary bg-primary text-white btn_action" onclick="metamask_add_token(glob['contracts']['stake'],'stDIMPLE',18,'https://app.dimple.finance/assets/images/logo/logo_dark2.svg');">
                     Add to METAMASK
                   </button>
                   </div>

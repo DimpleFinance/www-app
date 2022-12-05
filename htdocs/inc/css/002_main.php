@@ -34,3 +34,15 @@ transition:0.4s;
 {
     width:200px;
 }
+.text-success
+{
+    font-weight:bold;
+}
+.modal-footer3
+{
+    text-align:center;
+//    border:solid 1px blue;
+    padding:0 10px 0px 10px;
+//    background:#cccccc;
+    margin:0 0 10px 0;
+}

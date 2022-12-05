@@ -1,3 +1,7 @@
+<br>
+<br>
+<br>
+<br>
 			<!-- Header -->
 			<header id="header" class="shadow-xs">
 
@@ -28,11 +32,17 @@
 							</a>
 
 						</div>
-
-
-
-
 <?php
+/*
+<nav class="navbar navbar-expand-lg navbar-light justify-content-lg-between justify-content-md-inherit">
+<a class="nav-link" href="/#/manage/balance">BALANCE</a> 
+<a class="nav-link" href="/#/manage/pools">POOLS</a> 
+<a class="nav-link" href="/#/manage/staking">STAKING</a> 
+<a class="nav-link" href="/#/manage/faucet">FAUCET</a>
+</nav>
+*/
+
+
 /*						<!-- Menu -->
 						<!--
 
