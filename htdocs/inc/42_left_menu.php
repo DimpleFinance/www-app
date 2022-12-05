@@ -54,14 +54,13 @@ $menu[$k][name] = "Main";
 $menu[$k][svg]	= 6;
 */
 
-$k = "balance";
-$menu[$k][name] = "Balance";
-$menu[$k][svg]	= 5;
-
-
 $k = "pools";
 $menu[$k][name] = "Pools";
-$menu[$k][svg]	= 7;
+$menu[$k][svg]	= 5;
+
+$k = "all";
+$menu[$k][name] = "Balance";
+$menu[$k][svg]	= 1;
 
 /*
 $k = "txs";
@@ -72,11 +71,11 @@ $menu[$k][svg]	= 6;
 $k = "events";
 $menu[$k][name] = "Events";
 $menu[$k][svg]	= 4;
-*/
 
 $k = "staking";
 $menu[$k][name] = "Staking";
 $menu[$k][svg]	= 1;
+*/
 
 $k = "faucet";
 $menu[$k][name] = "Faucet";

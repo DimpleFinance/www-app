@@ -3,7 +3,7 @@
 
 <center>
 <h1 style="font-size:20px;">Testnet Price Chart</h1>
-<h2 style="font-size:15px;">We simulate price changes from mainnet for pools</h2>
+<h2 style="font-size:15px;">We simulate price changes from mainnet for pools in Polygon Mumbai Testnet</h2>
 </center>
        <!--#include file="/partial/demo-menu.html" -->
 <!--

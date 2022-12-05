@@ -46,3 +46,7 @@ transition:0.4s;
 //    background:#cccccc;
     margin:0 0 10px 0;
 }
+.blk_info
+{
+    text-align:center;
+}

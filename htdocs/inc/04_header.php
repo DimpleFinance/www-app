@@ -692,6 +692,8 @@
                   </a>
                   <div class="dropdown-divider mt-3"></div>
 -->
+    <div class=blk_info><i>Dimple worked on Polygon Mumbai testnet</i></div>
+                  <div class="dropdown-divider mt-3"></div>
                   <a href="#" title="Log Out" class="dropdown-item mt-1" onclick="return logout();">
                     <i class="fi fi-power float-start"></i>
                     Disconnect
