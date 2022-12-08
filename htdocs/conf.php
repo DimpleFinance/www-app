@@ -1,5 +1,6 @@
 <?php
-error_reporting(0);
+include "../conf.php";
+//error_reporting(0);
 switch($_SERVER['HTTP_HOST'])
 {
     case "dimple-app.infocoin.pro":
