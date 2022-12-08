@@ -54,11 +54,11 @@ $menu[$k][name] = "Main";
 $menu[$k][svg]	= 6;
 */
 
-$k = "pools";
+$k = "pool";
 $menu[$k][name] = "Pools";
 $menu[$k][svg]	= 5;
 
-$k = "all";
+$k = "balance";
 $menu[$k][name] = "Balance";
 $menu[$k][svg]	= 1;
 

@@ -15,6 +15,8 @@
 .page_pools .stake
 ,.page_pools .liq
 ,.page_pools .fee
+,.page_pools .th_act
+,.page_pools .act
 {
     text-align:center;
 }

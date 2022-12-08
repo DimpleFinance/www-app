@@ -42,7 +42,8 @@ function login_get()
     return wal;
 }
 
-function check_logining(item="",item2="all")
+//function check_logining(item="",item2="all")
+function check_logining(item="",item2="pool")
 {
 //    if(glob[item] != item)item2 = "all";
 //    else 
