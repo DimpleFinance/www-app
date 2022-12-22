@@ -21,11 +21,20 @@
 		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
 
 		<!-- favicon -->
-		<link rel="icon" type="image/png" href="/assets/logo2.png" />
+		<link rel="icon" type="image/png" href="/assets/logo-black.svg" />
 
 
     <script src="/js/jquery.min.js"></script>
     <script src="/data/"></script>
     <script src="/js/dojichart2.min.js"></script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J2F4M9CV52"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J2F4M9CV52');
+</script>
 
 	</head>

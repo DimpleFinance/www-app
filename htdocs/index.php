@@ -24,16 +24,19 @@ while($f = readdir($h))
     }
 }
 asort($inc_mas);
+//print_r($inc_mas);die;
 
 ob_start();
+$ni = 0;
 foreach($inc_mas as $incer=>$f)
 {
-
+//if($ni > 4)die;
     $t = str_replace(".php","",$f);
-//    print "<!-- $t -->\n";
+    print "<!-- $t -->\n";
     include $incer;
+$ni++;
 }
-
+//die;
 $page = ob_get_contents();
 ob_end_clean();
 
